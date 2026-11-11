@@ -1,0 +1,36 @@
+{
+  "name": "tracey",
+  "version": "1.0.0-rc.3",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "corpus": "node scripts/build-corpus.mjs",
+    "e2e": "playwright test",
+    "eval": "tsx eval/run-eval.ts",
+    "test:offline": "tsx --tsconfig tools/offline-qa/tsconfig.qa.json tools/offline-qa/run-tests.mts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.3.0",
+    "lucide-react": "^0.468.0",
+    "next": "15.5.28",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "unpdf": "^1.9.1",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@tailwindcss/postcss": "^4.0.0",
+    "@types/node": "^20.17.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "tailwindcss": "^4.0.0",
+    "tsx": "^4.23.15",
+    "typescript": "^5.7.0",
+    "vitest": "^2.1.8"
+  }
+}
