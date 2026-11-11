@@ -2,7 +2,7 @@
 
 학부연구생·초기 대학원생이 실험 중 마주친 문제를 **선행연구 + 실패 사례 + 내 실험 기록**으로 좁혀 가고,
 기록을 **연구노트**로, 반복된 궁금증을 **연구주제·연구계획서**로 발전시키도록 돕는 웹 앱입니다.
-
+https://tracey-khu-ai.netlify.app/
 > 구현·검증 상태는 [IMPLEMENTATION_STATUS.md](IMPLEMENTATION_STATUS.md), 테스트 결과는 [TEST_RESULTS.md](TEST_RESULTS.md),
 > 평가는 [EVALUATION.md](EVALUATION.md), 시연 순서는 [DEMO_SCENARIO.md](DEMO_SCENARIO.md), 인수인계는 [HANDOFF.md](HANDOFF.md)를 보세요.
 
